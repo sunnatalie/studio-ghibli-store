@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Ponyo",
+        "price": 10.99,
+        "imgUrl": "/images/ponyo.png"
+    },
+    {
+        "id": 2,
+        "name": "Howl's Moving Castle",
+        "price": 10.99,
+        "imgUrl": "/images/howlscastle.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Kiki's Delivery Service",
+        "price": 10.99,
+        "imgUrl": "/images/kkikis.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Kiki's Delivery Service",
+        "price": 10.99,
+        "imgUrl": "/images/kkikis.jpg"
+    }
+]

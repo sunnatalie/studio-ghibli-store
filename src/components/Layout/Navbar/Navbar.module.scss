@@ -10,7 +10,7 @@
 
 }
 
-h2 > a {
+h2 > a:hover {
     color: #1c29de;
 }
 
@@ -21,12 +21,12 @@ a {
     font-weight: 10px;
   }
 
-  a:hover {
-    border-bottom: 1px solid #1c29de;
+  div > a:hover {
+    border-bottom: 2px solid #1c29de;
   }
 
-  button:hover{
-    color: #1c29de
+  button > div:hover{
+    color: #f88e32;
   }
 
   div{

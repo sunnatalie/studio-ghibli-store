@@ -9,13 +9,17 @@ const Navbar: FC<NavbarProps> = () => {
     
     return(
         <nav className={`${styles.Navbar}`}>
-            <h2><NavLink to="/">Shopping Cart</NavLink></h2>
+            <h2><NavLink to="/">Ghibli Movie Posters</NavLink></h2>
             <div className="links"> {/* do not use anchor tags so that a new request to server is prevented every time we navigate*/}
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/store">Store</NavLink>
                 <NavLink to="/about">About</NavLink>
             </div>
-            <button className="material-icons-outlined">shopping_cart</button>
+            <button>
+                <div className="material-icons-outlined">shopping_cart</div>
+                <span className="circle">3</span>
+            </button>
+            {/* <button className="material-icons-outlined">shopping_cart</button> */}
         </nav>
     );
 }

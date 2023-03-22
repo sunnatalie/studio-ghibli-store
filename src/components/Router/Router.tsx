@@ -5,7 +5,9 @@ import About from '../../pages/About/About';
 import Home from '../../pages/Home/Home';
 import { Route, Routes} from 'react-router-dom';
 
-interface RouterProps {}
+interface RouterProps {
+
+}
 
 const Router: FC<RouterProps> = () => (
     <Routes>
