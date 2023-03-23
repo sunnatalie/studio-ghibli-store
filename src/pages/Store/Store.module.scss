@@ -1,4 +1,17 @@
 .Store{
-    display: flex;
-    flex-wrap: wrap;
+
+    &__container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: auto;
+        align-content: start
+    }
+
+    &__div{
+        flex: 0 0 auto;
+        margin: 10px;
+    }
+
 }

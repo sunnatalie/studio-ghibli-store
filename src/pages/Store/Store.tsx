@@ -12,9 +12,9 @@ const Store: FC<StoreProps> = () => {
 
         <div className={styles.Store}>
             <h1>Store</h1>
-            <div>
+            <div className={styles.Store__container}>
                 {storeItems.map(item => (
-                    <div key={item.id}>{<StoreItem {...item} />}</div>
+                    <div key={item.id} className={styles.Store__div}>{<StoreItem {...item} />}</div>
                 ))}
             </div>
         </div>

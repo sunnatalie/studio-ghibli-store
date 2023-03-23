@@ -1,20 +1,22 @@
 .StoreItem {
-    width: 200px;
+    width: 300px;
     height: 350px;
-    text-align: left;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
+    // text-align: left;
+    // margin: auto;
+    // display: flex;
+    // flex-direction: column;
+    // flex: 0 0 auto;
+    // margin: 20px;
 
     &__content {
-        margin-bottom: 5px;
+        // margin-bottom: 5px;
         text-align: center;
     }
 
     &__link {
-        padding: 8px;
-        border-radius: 10px;
-        flex: 1;
+        // padding: 8px;
+        // border-radius: 10px;
+        // flex: 1;
         overflow: hidden;
 
         &__img {
