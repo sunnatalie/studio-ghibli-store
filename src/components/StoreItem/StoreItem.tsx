@@ -8,21 +8,22 @@ interface StoreItemProps {
     id:number;
     name: string;
     price: number; 
-    imgUrl: string
+    imgUrl: string;
+    hqimgUrl?: string;
 }
 
-const StoreItem: FC<StoreItemProps> = ({ id,name,price,imgUrl }:StoreItemProps) => {
+const StoreItem: FC<StoreItemProps> = ({ id,name,price,imgUrl,hqimgUrl }:StoreItemProps) => {
 
 
     return (
         <div className={styles.StoreItem}>
             <div className={styles.StoreItem__link}>
-                <NavLink to={`/products/${id}`}>
+                <NavLink to={`/store/${ id }`}>
                     <img src={imgUrl} alt={name} />
                 </NavLink>
             </div>
             <div className={styles.StoreItem__content}>
-                <p>{name} ${price}</p>
+                <p>{ name } ${ price }</p>
             </div>
         </div>
     )
