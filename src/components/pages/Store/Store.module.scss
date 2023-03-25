@@ -1,21 +1,24 @@
 .Store{
 
+    margin-top: 50px;
+
     h1{
         margin-bottom: 30px;
         text-align: center;
+        color: rgb(198, 177, 177);
     }
+
     &__container{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
         align-items: auto;
-        align-content: start
+        align-content: start;
     }
 
     &__div{
         flex: 0 0 auto;
-        margin: 10px;
     }
 
 }

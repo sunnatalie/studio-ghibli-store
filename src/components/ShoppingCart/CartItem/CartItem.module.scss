@@ -1,0 +1,43 @@
+.CartItem {
+
+
+    display: grid;
+    grid-template-columns: 30% 60% 10%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    // margin: 0;
+    // padding: 0;
+    // align-content: flex-start;
+    // flex-direction: row;
+    // justify-content: flex-start;
+    // align-self: flex-start;
+    // align-items: flex-start;
+
+
+    &__content{
+        margin-left: 10px;
+        align-self: center;
+    }
+
+    &__remove{
+        align-self: center;
+    }
+
+
+    img{
+        width: 100px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    button,p{
+        color: #333;
+        margin: 0;
+    }
+
+    span{
+        padding: 5px;
+    }
+}

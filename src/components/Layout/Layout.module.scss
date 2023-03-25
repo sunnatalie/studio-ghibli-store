@@ -1,4 +1,14 @@
 .Layout {
-    max-width: 1200px;
+    // max-width: 1200px;
     margin: auto;
+    // display: grid;
+    // height:100vh;
+    // grid-template-rows: 15% 80% 5%;
+    // grid-template-columns: repeat(6, 1fr);
+
+    // &  > header , &  > body, & > footer{
+    //     grid-column: span 6;
+    // }
 }
+
+

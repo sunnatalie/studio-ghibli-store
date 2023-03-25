@@ -1,8 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu:wght@300&display=swap');
 
-/* base styles */
 * {
     margin: 0;
-    font-family: "Quicksand";
-    color: #333;
+    padding: 0;
+    font-family: "Noto Sans";
+    color: rgb(216, 212, 212);
+}
+
+header,body{
+    background-color: rgb(128, 96, 68);
+    /* background-image: url("../public/images/backgroundspirited.jpeg"); */
+    /* overflow: hidden; */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    overflow-y: scroll;
   }

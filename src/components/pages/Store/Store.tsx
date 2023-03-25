@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
-import storeItems from '../../data/items.json';
-import StoreItem from '../../components/StoreItem/StoreItem';
+import storeItems from '../../../data/items.json';
+import StoreItem from './StoreItem/StoreItem';
 import styles from './Store.module.scss';
-import Item from '../../models/Item';
+import Item from './StoreItem/models/Item';
 
 interface StoreProps {}
 

@@ -1,10 +1,10 @@
 import React, { FC } from 'react';
 import styles from './Router.module.scss';
-import Store from '../../pages/Store/Store';
-import About from '../../pages/About/About';
-import Home from '../../pages/Home/Home';
+import Store from '../pages/Store/Store';
+import About from '../pages/About/About';
+import Home from '../pages/Home/Home';
 import { Route, Routes} from 'react-router-dom';
-import ItemDetails from '../ItemDetails/ItemDetails';
+import ItemDetails from '../pages/Store/StoreItem/ItemDetails/ItemDetails';
 
 interface RouterProps {}
 

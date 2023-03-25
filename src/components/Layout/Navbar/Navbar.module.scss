@@ -1,18 +1,33 @@
 .Navbar {
-    color: 'white';
-    background-color: '#f1356d';
+    // color: 'white';
+    background-color: rgb(128, 96, 68);
     border-radius: '8px';
-    padding: 10px;
+    padding: 15px;
     display: flex;
     align-items: center;
-    margin: 30px;
-    border-bottom: 1px solid #f2f2f2;
+    height: 30px;
+    // margin: 30px;
+    // border-bottom: 1px solid #f2f2f2;
+
+    &__links{
+        margin-left: auto;
+    }
+
+    &__brand{
+        height: 150px;
+        // margin-top: 30px;
+        padding-top: 100px;
+        width: auto;
+        background-color: white;
+        z-index: 9;
+
+    }
+
+    &__brandimg{
+        height: 150px;
+    }
 
 }
-
-// h2 > a:hover {
-//     color: #1c29de;
-// }
 
 a {
     margin-left: 16px;
@@ -22,16 +37,16 @@ a {
   }
 
   div > a:hover {
-    border-bottom: 2px solid #1c29de;
+    color: rgb(57, 42, 19);
   }
 
   button > div:hover{
-    color: #f88e32;
+    color: rgb(57, 42, 19);
   }
 
-  div{
-    margin-left: auto;
-  }
+//   div{
+//     margin-left: auto;
+//   }
 
   button{
     background: none;

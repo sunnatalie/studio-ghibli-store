@@ -1,64 +1,65 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "name": "Ponyo",
         "price": 10.99,
         "imgUrl": "/images/ponyo.png",
         "hqimgUrl": "/images/ponyohq.jpeg"
     },
     {
-        "id": 2,
+        "id": 1,
         "name": "Howl's Moving Castle",
         "price": 10.99,
         "imgUrl": "/images/howlscastle.jpeg",
         "hqimgUrl": "/images/howlshq.jpeg"
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "Kiki's Delivery Service",
         "price": 10.99,
         "imgUrl": "/images/kkikis.jpg",
         "hqimgUrl": "/images/kikihq.jpeg"
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Castle in the Sky",
         "price": 10.99,
         "imgUrl": "/images/castleintheskythumbimage.jpg",
         "hqimgUrl": "/images/castleintheskyhq.jpg"
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "Nausicaa",
         "price": 10.99,
         "imgUrl": "/images/nausicaathumbimage.jpeg",
         "hqimgUrl": "/images/nausicaahq.jpeg"
     },
     {
+        "id": 5,
+        "name": "Only Yesterday",
+        "price": 12.99,
+        "imgUrl": "/images/yesterdaythumb.jpg",
+        "hqimgUrl": "/images/yesterdayhq.jpg"
+    },
+    {
         "id": 6,
-        "name": "Ponyo",
+        "name": "The Tale of Princess Kaguya",
         "price": 10.99,
-        "imgUrl": "/images/ponyo.png",
-        "hqimgUrl": "/images/ponyohq.jpeg"
+        "imgUrl": "/images/kaguyathumb.jpeg",
+        "hqimgUrl": "/images/kaguyahq.jpeg"
     },
     {
         "id": 7,
-        "name": "Ponyo",
+        "name": "From Up on Poppy Hill",
         "price": 10.99,
-        "imgUrl": "/images/ponyo.png",
-        "hqimgUrl": "/images/ponyohq.jpeg"
+        "imgUrl": "/images/poppythumb.jpeg",
+        "hqimgUrl": "/images/poppyhq.jpeg"
     },
     {
         "id": 8,
-        "name": "Ponyo",
+        "name": "My Neighbor Totoro",
         "price": 10.99,
-        "imgUrl": "/images/ponyo.png"
-    },
-    {
-        "id": 9,
-        "name": "Ponyo",
-        "price": 10.99,
-        "imgUrl": "/images/ponyo.png",
-        "hqimgUrl": "/images/ponyohq.jpeg"
+        "imgUrl": "/images/totorothumb.jpeg",
+        "hqimgUrl": "/images/totorohq.jpeg"
     }
 ]
