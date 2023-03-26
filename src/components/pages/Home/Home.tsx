@@ -9,19 +9,35 @@ const Home: FC<HomeProps> = () => {
     const images = [
         '/images/train.jpeg',
         '/images/windrises.jpeg',
-        '/images/backgroundspirited.jpeg'
+        '/images/backgroundspirited.jpeg',
+        '/images/porco.jpeg',
+        '/images/catreturns.jpeg',
+        '/images/totoroslide.jpeg',
+        '/images/nausicaa1.jpg',
+        '/images/laputa1.jpg',
+        '/images/arietty1.jpg',
+        '/images/mononoke1.jpg',
+
+
+
       ];
     
       const captions = [
         'Spirited Away',
         'The Wind Rises',
-        'Spirited Away'
+        'Spirited Away',
+        'Porco Rosso',
+        'The Cat Returns',
+        'My Neighbor Totoro',
+        'Nausicaa',
+        'Castle in the Sky',
+        'Arietty',
+        'Princess Mononoke'
       ];
     
       return (
         <div>
-          <h1>Welcome to my homepage!</h1>
-          <Slideshow images={images} captions={captions} interval={3000} />
+          <Slideshow images={images} captions={captions} interval={4500} />
         </div>
       );
     };

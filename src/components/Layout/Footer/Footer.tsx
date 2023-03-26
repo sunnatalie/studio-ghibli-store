@@ -5,7 +5,7 @@ interface FooterProps {}
 
 const Footer: FC<FooterProps> = () => (
   <footer className={styles.Footer}>
-    Created by Natalie Sun ©
+    {/* Created by Natalie Sun © */}
   </footer>
 );
 
