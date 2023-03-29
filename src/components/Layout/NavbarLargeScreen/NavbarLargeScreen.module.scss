@@ -1,0 +1,63 @@
+.NavbarLargeScreen{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 40px;
+    line-height: 40px;
+    width: 100%;
+    z-index: 150;
+    background-color: #996f51;
+
+
+    &__brand{
+        max-height: 150px;
+        height: 150px;
+        width: auto;
+        background-color: #f7efe8;
+        z-index: 9;
+        align-self: baseline;
+    }
+
+    &__brand:hover{
+        background-color: #5079b2;
+    }
+
+    &__logo{
+        max-height: 150px;
+        height: 150px;
+    }
+
+    &__pageLinks{
+        display: flex;
+        padding-top: 5px;
+    }
+
+    &__pageLinks > a{
+        padding: 1rem;
+    }
+
+    &__pageLinks > a:hover{
+        color: #351303;
+    }
+
+    &__shoppingCartButton{
+        background: none;
+        color: inherit;
+        border: none;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+        padding: 1rem;
+        padding-top: 20px;
+    }
+
+    &__shoppingCartButton:hover > div{
+        color: #351303;
+    }
+    &__shoppingCartButton:hover > span{
+        color: #351303;
+    }
+
+}
+

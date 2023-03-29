@@ -1,15 +1,26 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu:wght@300&display=swap');
 
+
+:root {
+    --main-bg-color: #996f51;
+    --main-accent-color-dark: #351303;
+    --main-accent-color-light: #f7efe8;
+    --main-accent-color-light-blue: #5079b2;
+    --main-accent-color-dark-blue: #072768;
+
+  }
+
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Noto Sans";
-    color: rgb(216, 212, 212);
+    color: var(--main-accent-color-light);
 }
 
 header,body{
-    background-color: rgb(128, 96, 68);
+    background-color: var(--main-bg-color);
     /* background-image: url("../public/images/backgroundspirited.jpeg"); */
     /* overflow: hidden; */
     height: 100%;
@@ -27,4 +38,8 @@ header,body{
 
 html {
     overflow-y: scroll;
+  }
+
+  a {
+    text-decoration: none;
   }

@@ -1,0 +1,139 @@
+.NavbarSmallScreen {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 40px;
+    line-height: 40px;
+    width: 100%;
+    z-index: 150;
+    position: fixed;
+    background-color: #996f51;
+
+
+    &__brand{
+        max-height: 150px;
+        width: auto;
+        background-color: #f7efe8;
+        z-index: 9;
+        align-self: baseline;
+    }
+
+    &__brand:hover{
+        background-color: #5079b2;
+    }
+
+    &__logo{
+        max-height: 150px;
+    }
+
+    &__pageLinks{
+        display: flex;
+    }
+
+    &__pageLinks > a{
+        padding: 1rem;
+    }
+
+    &__pageLinks > a:hover{
+        color: #351303;
+    }
+
+    &__shoppingCartButton{
+        background: none;
+        color: inherit;
+        border: none;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+        padding: 1rem;
+        padding-top: 20px;
+    }
+
+    &__shoppingCartButton:hover > div{
+        color: #351303;
+    }
+    &__shoppingCartButton:hover > span{
+        color: #351303;
+    }
+
+    &__toggle{
+        position: absolute;
+        top: .75rem;
+        left: 1rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 21px;
+        width: 30px;
+
+    }
+
+    &__toggleBars{
+        height: 3px;
+        width: 100%;
+        background-color: rgb(216, 212, 212);
+        
+    }
+
+    @media (max-width: 650px){
+
+        flex-direction: column;
+        align-items: flex-start;
+        max-height: 50%;
+        // background-color: transparent;
+
+        &__toggle{
+            display: flex;
+            z-index: 40;
+        }
+
+
+        &__pageLinks{
+
+            // display: flex;
+            display: none;
+            flex-direction: column;
+            top: 0;
+            width: 100%;
+            padding-top: 1.5rem;
+            z-index: 10;
+
+        }
+
+        // .Navbar__pageLinks.active {
+        //     display: flex !important;
+        //     max-height: 50%;
+        //     outline: 1px solid red;
+        // }
+
+
+        &__pageLinks > a{
+            z-index: 40px;
+            text-align: center;
+            padding: 0.5rem;
+        }
+
+        &__brand{
+            margin-top: 50%;
+            position: absolute;
+            height: 100px;
+            width: auto;
+        }
+
+        &__logo{
+            height: 100px;
+        }
+
+    }
+
+    @media (max-width: 300px){
+        &__brand{
+            height: 60px;
+        }
+
+        &__logo{
+            height: 60px;
+        }
+    }
+}

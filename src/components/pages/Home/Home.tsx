@@ -1,5 +1,6 @@
 import React, { FC, useEffect, useState } from 'react';
 import Slideshow from '../../Slideshow/Slideshow';
+import Store from '../Store/Store';
 import styles from './Home.module.scss';
 
 interface HomeProps {}
@@ -38,6 +39,7 @@ const Home: FC<HomeProps> = () => {
       return (
         <div>
           <Slideshow images={images} captions={captions} interval={4500} />
+          {/* <Store /> */}
         </div>
       );
     };

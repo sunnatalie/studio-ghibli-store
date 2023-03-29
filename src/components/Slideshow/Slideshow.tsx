@@ -94,7 +94,7 @@ const Slideshow: React.FC<SlideshowProps> = ({ images, captions, interval }) => 
           mountOnEnter
           unmountOnExit
         >
-          <div className="slide">
+          <div className={styles.Slideshow__slide}>
             <img
               src={image}
               alt={`Slide ${index + 1}`}

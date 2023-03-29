@@ -1,34 +1,39 @@
-import React, { FC } from 'react';
-import { NavLink } from 'react-router-dom';
+
+import React, { useState, useEffect } from 'react';
 import styles from './Navbar.module.scss';
-import 'material-icons/iconfont/material-icons.css';
-import { useShoppingCart } from '../../../context/shoppingCartContext';
+import NavbarLargeScreen from '../NavbarLargeScreen/NavbarLargeScreen';
+import NavbarSmallScreen from '../NavbarSmallScreen/NavbarSmallScreen';
 
-interface NavbarProps {}
+const Navbar = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-const Navbar: FC<NavbarProps> = () => {
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
 
-    const { openCart, cartQuantity } = useShoppingCart();
-    
-    return(
-        <nav className={`${styles.Navbar}`}>
-            <div className={styles.Navbar__brand}>
-                <NavLink to="/">
-                    <img src="/images/ghiblilogo.png" alt="" className={styles.Navbar__brandimg}/>
-                </NavLink>
-            </div>
-            <div className={styles.Navbar__links}> {/* do not use anchor tags so that a new request to server is prevented every time we navigate*/}
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/store">Store</NavLink>
-                <NavLink to="/about">About</NavLink>
-            </div>
-            <button onClick={openCart}>
-                <div className="material-icons-outlined">shopping_cart</div>
-                {cartQuantity > 0 && (<span className="circle">{cartQuantity}</span>)}
-            </button>
-            {/* <button className="material-icons-outlined">shopping_cart</button> */}
-        </nav>
-    );
-}
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  return (
+    <>
+      {windowWidth < 650 ? (
+        <div>
+          <NavbarSmallScreen/>
+        </div>
+      ) : (
+        <div>
+          <NavbarLargeScreen/>
+        </div>
+      )}
+    </>
+  );
+};
 
 export default Navbar;
+
+

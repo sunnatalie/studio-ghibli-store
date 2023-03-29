@@ -4,7 +4,7 @@
     height: 100%; /* 100% Full-height */
     width: 350px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 20; /* Stay on top */
+    z-index: 1000; /* Stay on top */
     top: 0;
     right: 0;
     background-color: white; /* Black*/
@@ -45,17 +45,13 @@
         text-align: left;
       }
 
+    @media (max-width: 650px){
+
+        width: 100%;
+    }
+
 }
 
 h2{
     color: #333;
 }
-
-// p{
-//     // color: #333;
-// }
-
-// @media screen and (max-height: 450px) {
-//     .sidenav {padding-top: 15px;}
-//     .sidenav a {font-size: 18px;}
-//   }
