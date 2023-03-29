@@ -16,10 +16,7 @@ interface StoreItemProps {
 const StoreItem: FC<StoreItemProps> = ({ id,name,price,imgUrl,hqimgUrl }:StoreItemProps) => {
 
     const { 
-        getItemQuantity, 
-        increaseCartQuantity, 
-        decreaseCartQuantity,
-        removeFromCart
+        getItemQuantity
     } = useShoppingCart();
 
     const quantity = getItemQuantity(id);
@@ -32,21 +29,9 @@ const StoreItem: FC<StoreItemProps> = ({ id,name,price,imgUrl,hqimgUrl }:StoreIt
                 </NavLink>
             </div>
             <div className={styles.StoreItem__content}>
-                <p>{ name } ${ price }</p>
+                <span>{ name } </span> <br></br>
+                <span>${ price }</span>
             </div>
-            {/* <div>
-                {quantity === 0 ? (
-                    <button onClick={() => increaseCartQuantity(id)}>+ add to cart</button>
-                ): 
-                <div>
-                    <div>
-                        <button onClick={() => decreaseCartQuantity(id)}>-</button>
-                        <div><span>{ quantity }</span> in cart</div>
-                        <button onClick={() => increaseCartQuantity(id)}>+</button>
-                    </div>
-                    <button onClick={() => removeFromCart(id)}>remove</button>
-                </div>}
-            </div> */}
         </div>
     )
 }

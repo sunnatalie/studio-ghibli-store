@@ -1,28 +1,19 @@
 .StoreItem {
     width: 300px;
     height: 350px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     padding: 40px;
     margin-left: auto;
     margin-right: auto;
 
-    // text-align: left;
-    // margin: auto;
-    // display: flex;
-    // flex-direction: column;
-    // flex: 0 0 auto;
-    // margin: 20px;
-
-    &__content {
-        // margin-bottom: 20px;
-        // margin-left: 21px;
-        // text-align: center;
+    &__content > span{
+        color: #351303;
+    }
+    &__content > span:nth-child(3){
+        font-size: smaller;
     }
 
     &__link {
-        // padding: 8px;
-        // border-radius: 10px;
-        // flex: 1;
         overflow: hidden;
 
         &__img {
