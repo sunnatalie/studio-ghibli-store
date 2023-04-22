@@ -27,7 +27,7 @@
   "homepage": "https://sunnatalie.github.io/studio-ghibli-store",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages id build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
