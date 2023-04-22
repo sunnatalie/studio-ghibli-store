@@ -2,13 +2,14 @@ import React, { FC, useEffect, useState } from 'react';
 import Slideshow from '../../Slideshow/Slideshow';
 import Store from '../Store/Store';
 import styles from './Home.module.scss';
+import train from '../../../assets/train.jpeg'
 
 interface HomeProps {}
 
 const Home: FC<HomeProps> = () => {
 
     const images = [
-        '/images/train.jpeg',
+        train,
         '/images/windrises.jpeg',
         '/images/backgroundspirited.jpeg',
         '/images/porco.jpeg',
