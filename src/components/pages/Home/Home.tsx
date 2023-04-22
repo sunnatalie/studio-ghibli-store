@@ -8,7 +8,7 @@ interface HomeProps {}
 const Home: FC<HomeProps> = () => {
 
     const images = [
-        '/images/train.jpeg',
+        '../../../../public/images/train.jpeg',
         '/images/windrises.jpeg',
         '/images/backgroundspirited.jpeg',
         '/images/porco.jpeg',
