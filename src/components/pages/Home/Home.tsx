@@ -8,8 +8,8 @@ interface HomeProps {}
 const Home: FC<HomeProps> = () => {
 
     const images = [
-        '../../../../public/images/train.jpeg',
-        '/images/windrises.jpeg',
+        'images/train.jpeg',
+        'images/windrises.jpeg',
         '/images/backgroundspirited.jpeg',
         '/images/porco.jpeg',
         '/images/catreturns.jpeg',
@@ -18,8 +18,6 @@ const Home: FC<HomeProps> = () => {
         '/images/laputa1.jpg',
         '/images/arietty1.jpg',
         '/images/mononoke1.jpg',
-
-
 
       ];
     
