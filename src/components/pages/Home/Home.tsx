@@ -36,7 +36,7 @@ const Home: FC<HomeProps> = () => {
     
       return (
         <div>
-          <Slideshow images={images} captions={captions} interval={4500} />
+          <Slideshow images={images} captions={captions} interval={20000} />
           {/* <Store /> */}
         </div>
       );
