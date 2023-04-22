@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/studio-ghibli-store/static/css/main.d4ce69e3.css",
-    "main.js": "/studio-ghibli-store/static/js/main.9a272be6.js",
+    "main.js": "/studio-ghibli-store/static/js/main.b9373bb2.js",
     "static/js/787.fe0e4ddc.chunk.js": "/studio-ghibli-store/static/js/787.fe0e4ddc.chunk.js",
     "static/media/material-icons-two-tone.woff": "/studio-ghibli-store/static/media/material-icons-two-tone.3baa5b8f3469222b822d.woff",
     "static/media/material-icons-two-tone.woff2": "/studio-ghibli-store/static/media/material-icons-two-tone.4ef4218c522f1eb6b5b1.woff2",
@@ -15,11 +15,11 @@
     "static/media/material-icons.woff2": "/studio-ghibli-store/static/media/material-icons.0c35d18bf06992036b69.woff2",
     "index.html": "/studio-ghibli-store/index.html",
     "main.d4ce69e3.css.map": "/studio-ghibli-store/static/css/main.d4ce69e3.css.map",
-    "main.9a272be6.js.map": "/studio-ghibli-store/static/js/main.9a272be6.js.map",
+    "main.b9373bb2.js.map": "/studio-ghibli-store/static/js/main.b9373bb2.js.map",
     "787.fe0e4ddc.chunk.js.map": "/studio-ghibli-store/static/js/787.fe0e4ddc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4ce69e3.css",
-    "static/js/main.9a272be6.js"
+    "static/js/main.b9373bb2.js"
   ]
 }
