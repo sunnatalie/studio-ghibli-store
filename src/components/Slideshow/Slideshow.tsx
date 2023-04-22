@@ -96,7 +96,7 @@ const Slideshow: React.FC<SlideshowProps> = ({ images, captions, interval }) => 
         >
           <div className={styles.Slideshow__slide}>
             <img
-              src={require(`${images}`).default}
+              src={image}
               alt={`Slide ${index + 1}`}
               className={styles.Slideshow__image}
             />
