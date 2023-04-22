@@ -10,7 +10,7 @@ const Home: FC<HomeProps> = () => {
     const images = [
         'images/train.jpeg',
         'images/windrises.jpeg',
-        '/images/backgroundspirited.jpeg',
+        'images/backgroundspirited.jpeg',
         '/images/porco.jpeg',
         '/images/catreturns.jpeg',
         '/images/totoroslide.jpeg',
